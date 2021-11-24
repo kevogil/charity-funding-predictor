@@ -6,10 +6,14 @@ The purpose of this project is to evaluate whether machine learning and neural n
 ## Preprocessing the data
 The dataset used for the evaluation consists of 34,000 organizations that have received funding from Alphabet Soup over the years.
 The following steps were taken to prepare the dataset:
-* Drop the 'EIN' and 'NAME' columns
-* 
+* The 'EIN' and 'NAME' columns were dropped as they did not contain information that would be relevant features for the model.
+* Application types with less than 500 counts were binned into an `Other` category to reduce potential variance.
+* Classifications with less than 1,000 counts were binned into an `Other` category to reduce potential variance.
+* Categorical data were converted to numeric values.
+* Dataset was split into a training and testing subsets.
 
 ## Results
-
+Our goal was to optimize our model to achieve a target predictive accuracy higher than 75%. Three attempts were made with the following parameters and results:
+<li>The first attempt resulted in 72.5% of the model's predictions aligning to the true values.</li>
 
 ## Summary
