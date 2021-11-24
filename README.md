@@ -14,10 +14,8 @@ The following steps were taken to prepare the dataset:
 
 ## Results
 Our goal was to optimize our model to achieve a target predictive accuracy higher than 75%. Three attempts were made with the following parameters and results:
-    <li>
-        The first attempt 
-        <br>
-        This resulted in 72.5% of the model's predictions aligning to the true values.
-    </li>
+* The first attempt 
+<br>
+This resulted in 72.5% of the model's predictions aligning to the
 
 ## Summary
