@@ -20,6 +20,7 @@ Our goal was to optimize our model to achieve a target predictive accuracy highe
     <ul>Units: 8 units 1st layer, 5 units in second layer</ul>
     <ul>Output function: Sigmoid</ul>
     <ul>Epochs: 100</ul>
+    
     This resulted in 72.5% of the model's predictions aligning to the true values.
 
 ## Summary
