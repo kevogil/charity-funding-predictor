@@ -16,10 +16,10 @@ The following steps were taken to prepare the dataset:
 Our goal was to optimize our model to achieve a target predictive accuracy higher than 75%. Three attempts were made with the following parameters and results:
 <li>The first attempt was a neural network with the following hyperparameters:</li>
     <ul>Number of hidden layers: 2</ul>
-    Activation function: Relu
-    Units: 8 units 1st layer, 5 units in second layer
-    Output function: Sigmoid
-    Epochs: 100
+    <ul>Activation function: Relu</ul>
+    <ul>Units: 8 units 1st layer, 5 units in second layer</ul>
+    <ul>Output function: Sigmoid</ul>
+    <ul>Epochs: 100</ul>
 
 This resulted in 72.5% of the model's predictions aligning to the true values.
 
