@@ -29,6 +29,8 @@ Our goal was to optimize our model to achieve a target predictive accuracy highe
     <ul>Neurons: 16 units in 1st, 10 units in 2nd, 8 units in 3rd</ul>
     <ul>Output function: Sigmoid</ul>
     <ul>Epochs: 200</ul>
+
+    The "Organization" column was dropped from the dataset as my initial suspicion was that it may have been causing confusion in the model.
     
     This resulted in 72.5% of the model's predictions aligning to the true values.
 
@@ -39,6 +41,8 @@ Our goal was to optimize our model to achieve a target predictive accuracy highe
     <ul>Output function: Sigmoid</ul>
     <ul>Epochs: 200</ul>
     
+    The "Special Considerations" column was also dropped from the dataset to test if dropping more features resulted in a better prediction.
+
     This resulted in 72.4% of the model's predictions aligning to the true values.
 
 ## Summary
