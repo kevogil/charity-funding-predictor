@@ -13,14 +13,32 @@ The following steps were taken to prepare the dataset:
 * The dataset was split into a training and testing subsets.
 
 ## Results
-Our goal was to optimize our model to achieve a target predictive accuracy higher than 75%. Three attempts were made with the following parameters and results:
+Our goal was to optimize our model to achieve a target predictive accuracy higher than 75%. Four attempts were made with the following parameters and results:
 1. The first attempt was a neural network with the following hyperparameters:
     <ul>Number of hidden layers: 2</ul>
-    <ul>Activation function: Relu</ul>
-    <ul>Units: 8 units 1st layer, 5 units in second layer</ul>
+    <ul>Activation function: Relu (all 2 layers)</ul>
+    <ul>Neurons: 8 units in 1st layer, 5 units in 2nd layer</ul>
     <ul>Output function: Sigmoid</ul>
     <ul>Epochs: 100</ul>
+
+    This resulted in 72.8% of the model's predictions aligning to the true values.
+
+2. The second attempt was also a neural network with the following hyperparameters:
+    <ul>Number of hidden layers: 3</ul>
+    <ul>Activation function: Relu (all 3 layers)</ul>
+    <ul>Neurons: 16 units in 1st, 10 units in 2nd, 8 units in 3rd</ul>
+    <ul>Output function: Sigmoid</ul>
+    <ul>Epochs: 200</ul>
     
     This resulted in 72.5% of the model's predictions aligning to the true values.
+
+3. The third attempt was also a neural network with the following hyperparameters:
+    <ul>Number of hidden layers: 3</ul>
+    <ul>Activation function: Relu (1st 2 layers), Tanh (3rd layer)</ul>
+    <ul>Neurons: 16 units in 1st, 10 units in 2nd, 8 units in 3rd</ul>
+    <ul>Output function: Sigmoid</ul>
+    <ul>Epochs: 200</ul>
+    
+    This resulted in 72.4% of the model's predictions aligning to the true values.
 
 ## Summary
