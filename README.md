@@ -45,4 +45,15 @@ Our goal was to optimize our model to achieve a target predictive accuracy highe
 
     This resulted in 72.4% of the model's predictions aligning to the true values.
 
+4. For the final attempt, KerasTuner was utilized to determine the optimal hyperparameter settings. The KerasTuner library recommended the following parameters:
+    <ul>Number of hidden layers: 2</ul>
+    <ul>Activation function: Tanh</ul>
+    <ul>Neurons: 5 units</ul>
+    <ul>Epochs: 20</ul>
+
+    This resulted in 72.7% of the model's predictions aligning to the true values.
+
 ## Summary
+In the four attempts made, a target predictive accuracy of 75% was not able to be attained. Adjusting the hyperparameters did not result in much change at all, suggesting that the deep learning model may not have been the best choice for this particular dataset.
+
+With more time, I would explore how other models through Logistic Regression or Decision Trees would work with this dataset.
